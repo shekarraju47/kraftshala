@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kraftshala/static/css/main.6a1cd5df.css",
+    "main.js": "/kraftshala/static/js/main.cbc98be9.js",
+    "static/js/453.ed3810f9.chunk.js": "/kraftshala/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/kraftshala/index.html",
+    "main.6a1cd5df.css.map": "/kraftshala/static/css/main.6a1cd5df.css.map",
+    "main.cbc98be9.js.map": "/kraftshala/static/js/main.cbc98be9.js.map",
+    "453.ed3810f9.chunk.js.map": "/kraftshala/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a1cd5df.css",
+    "static/js/main.cbc98be9.js"
+  ]
+}
