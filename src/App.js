@@ -18,6 +18,7 @@ const App = () => {
   const [dateTime, setDateTime] = useState("");
   const [curretnCity, setCurrentCuty] = useState(false);
 
+// Time & Date Take From Time Zone Convet to Current Data And Time
   const updateCityTime = () => {
     const offset = weather.timezone;
     const now = new Date();
@@ -34,6 +35,8 @@ const App = () => {
     // eslint-disable-next-line
   }, []);
 
+
+  //Time and date update evrey seconds using Intervals
   useEffect(() => {
     const interval = setInterval(() => {
       if (weather) {
@@ -45,6 +48,8 @@ const App = () => {
     // eslint-disable-next-line
   }, [weather]);
 
+  //Fetch Weather User Current Location
+  // latitude, longitude taking from inbuild functions
   const fetchWeather = async (latitude, longitude) => {
     setError(null);
     setWeather(null);
@@ -94,6 +99,8 @@ const App = () => {
     }
   };
 
+
+  //User Search perticuler location (zipcode or address) fetch datails from apis 
   const fetchWeatherByCity = async (city) => {
     setCurrentCuty(false);
     setError(null);
