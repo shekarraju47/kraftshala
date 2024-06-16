@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  .top-card {
+    font-size: 10px;
+  }
+}
+
+.weather {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+.weather-info {
+  margin-top: 20px;
+  background: tan;
+  color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.temp-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .detials {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+.temp-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.weather-info img {
+  margin-top: 10px;
+  width: 20%;
+  height: 20%;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.humidity {
+  width: 45px;
+  height: 45px;
+}
+
+.speed {
+  width: 28px;
+  height: 28px;
+  margin: 10px;
+}
+
+.location-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+}
+
+.dt-card {
+  border: solid green 2px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .humidity {
+    width: 30px;
+    height: 30px;
+  }
+}
